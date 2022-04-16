@@ -1205,4 +1205,5 @@ async def on_button_click(interaction):
 
 
 if __name__ == "__main__":
-    client.run("OTY0ODA4OTU4NTY3MTQ5NTY4.YlqCXQ.tTJkse8HiDKQ4Eo_u002iGn4ozY")
+    access_token = os.environ["BOT_TOKEN]
+    client.run("access_token")
